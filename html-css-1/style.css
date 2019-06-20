@@ -1,0 +1,119 @@
+/* nav bar */
+header {
+    width: 100%;
+    height: 5vh;
+    background-color: grey;
+    display: flex;
+
+}
+
+.top-bar {
+display: flex;
+align-items: center;
+height: 100%;
+
+
+}
+
+ul > li {
+    display: inline;
+}
+
+.big {
+    font-size: 24px;
+    color: white;
+} 
+
+.small {
+    font-size: 14px;
+    color: white;
+    
+}
+
+/* body1 */
+.huge-box {
+    width: 100%;
+    height: 27vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text {
+    color: gold;
+    font-size: 45px;
+}
+
+/* flexbox sections */
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.container > div {
+    width: 165px;
+    height: 165px;
+    text-align: center;
+    line-height: 75px;
+    background: rgb(160, 248, 222);
+    border-radius: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.container2 > div {
+    width: 295px;
+    height: 162px;
+    text-align: center;
+    line-height: 75px;
+    background: rgb(248, 199, 109);
+    
+}
+
+/* text & picture section */
+.container3 {
+    display: flex;
+    height: 130px;
+    /* flex-wrap: nowrap; */
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.container3 > div {
+    width: 295px;
+    height: 100%;
+}
+
+.textbox {
+    font-size: 10px;
+    line-height: 13px;
+    padding-top: 10px;
+}
+
+.pic {
+
+}
+
+.realpic {
+    width: 180px;
+}
+
+/* footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(52, 46, 77);
+    color: rgb(52, 46, 77);
+}
